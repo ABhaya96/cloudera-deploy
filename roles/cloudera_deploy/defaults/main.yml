@@ -16,7 +16,7 @@
 
 # Default Paths
 default_local_temp_dir: '/tmp'
-default_sshkey_path: '~/.ssh'
+default_sshkey_path: '/opt/e2e/cloudera-deploy/.ssh'
 default_config_path: '~/.config/cloudera-deploy'
 
 # Default names

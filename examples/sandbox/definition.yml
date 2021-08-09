@@ -18,6 +18,13 @@ datahub:
   definitions:
     - include: "datahub_streams_messaging_light.j2"
 
-use_default_cluster_definition: yes
-use_download_mirror: yes
-preload_cm_parcel_repo: yes
+admin_password: Mysecretpword1!
+name_prefix: abhaya1
+infra_type: aws
+infra_region: us-west-2
+tags:
+  owner: abhaya.mishra@cloudera.com
+  enddate: "01012022"
+env:
+  tunnel: yes
+  public_endpoint_access: no
